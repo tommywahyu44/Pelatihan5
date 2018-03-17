@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "905400585349",
+    "firebase_url": "",
+    "project_id": "nutricons-3e5ff",
+    "storage_bucket": ""
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905400585349:android:e1d8ae270f0bc473",
+        "android_client_info": {
+          "package_name": "com.example.tommywahyu44.pelatihan5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905400585349-22ssq9rnuq4mlhrie37j03g4p589km85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tommywahyu44.pelatihan5",
+            "certificate_hash": "09fa9931a78e4324d88bb3218164064a5932e76b"
+          }
+        },
+        {
+          "client_id": "905400585349-sp7rn5qoqadtvc6o5us85rjirdjkaa0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPacuIGAiZAmCnh122xCE3j1PpTr1ymtA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905400585349-sp7rn5qoqadtvc6o5us85rjirdjkaa0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

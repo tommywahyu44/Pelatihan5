@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:background="?attr/selectableItemBackground"
+    android:foreground="?attr/selectableItemBackground"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="2dp"
+    card_view:cardPreventCornerOverlap="false">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/kriteria_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearLayout"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            tools:src="@drawable/kriteria_mata" />
+
+
+        <TextView
+            android:id="@+id/kriteria_name"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#B0ffffff"
+            tools:text="Menambah Tinggi">
+
+        </TextView>
+
+    </FrameLayout>
+</android.support.v7.widget.CardView>
